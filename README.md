@@ -26,5 +26,28 @@ ATAAD的治疗主要是外科手术，通过置换受累的主动脉段以防止
 读取数据--划分测试集、训练集--设定模型参数--超参数调优--交叉验证--性能评估（模型调整）--新数据模型测试
 
 ## 结果
-### SVM
+### SVM部分
+**1.**混淆矩阵和交叉验证
 ![1720413231827](https://github.com/ChazenLi/ML-DL-4-ATAAD/assets/114374202/fe036c2a-e1aa-45b6-9bda-368d9ded11ad)
+
+**2.**相关关系分析
+![相关关系heatmap](https://github.com/ChazenLi/ML-DL-4-ATAAD/assets/114374202/c8961191-a899-4ad9-a67f-ae1353c4b558)
+
+**3.**PCA
+![PCA](https://github.com/ChazenLi/ML-DL-4-ATAAD/assets/114374202/d682d25a-1590-4090-a785-8d2299c6fafb)
+
+**4.**ROC
+![ROC](https://github.com/ChazenLi/ML-DL-4-ATAAD/assets/114374202/bea83354-a7d7-40f9-a947-99c1bc57d63e)
+
+**5.**PAIRPLOT-CORRELATE
+（特征过多，还不知道如何更好呈现）
+![pairplot-correlate](https://github.com/ChazenLi/ML-DL-4-ATAAD/assets/114374202/4977ae3e-bb86-4022-a56d-9e5702083807)
+
+### Random Forest
+大致图片结果同上，可视化数据类型相同
+![1720413636540](https://github.com/ChazenLi/ML-DL-4-ATAAD/assets/114374202/246e60ca-0b2c-438b-add5-541367eca44d)
+
+
+
+
+
