@@ -29,6 +29,7 @@ ATAAD的治疗主要是外科手术，通过置换受累的主动脉段以防止
 ### SVM部分
 **1.**混淆矩阵和交叉验证
 ![1720413231827](https://github.com/ChazenLi/ML-DL-4-ATAAD/assets/114374202/fe036c2a-e1aa-45b6-9bda-368d9ded11ad)
+一开始怀疑是由于模型过拟合，导致的训练集成功率100%；但是后来引入交叉验证和观察测试集数据；发现并非如此，并且结合临床分析，确定对于ATAAD数据，其有明显的数据可分性。
 
 **2.**相关关系分析
 ![相关关系heatmap](https://github.com/ChazenLi/ML-DL-4-ATAAD/assets/114374202/c8961191-a899-4ad9-a67f-ae1353c4b558)
